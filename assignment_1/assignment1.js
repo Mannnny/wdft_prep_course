@@ -3,7 +3,7 @@ Exercise #1
 Create a variable named "numbers" and assign an empty array to it.
 */
 var numbers;
-
+console.log('Hello World!');
 
 /*
 Exercise #2
