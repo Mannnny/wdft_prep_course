@@ -41,8 +41,3 @@ To decide if a number is even, the number should be dividable by 2 and get a int
 
 */
 
-
-
-
-//exercise 1 wants:
-
