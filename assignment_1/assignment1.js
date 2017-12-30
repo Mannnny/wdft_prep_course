@@ -2,8 +2,7 @@
 Exercise #1
 Create a variable named "numbers" and assign an empty array to it.
 */
-var numbers;
-console.log('Hello World!');
+var numbers = new Array()
 
 /*
 Exercise #2
@@ -11,7 +10,20 @@ Using the loop provided for you below, use the array push method to insert the n
 */
 
 for(var i=0;i<10;i++){
-    //use the array push() method here.
+   var myArray = new Array()
+   myArray.push('1');
+   myArray.push('2');
+   myArray.push('3');
+   myArray.push('4');
+   myArray.push('5');
+   myArray.push('6');
+   myArray.push('7');
+   myArray.push('8');
+   myArray.push('9');
+   myArray.push('10');
+
+   console.log(i);
+   //use the array push() method here.
 }
 
 
@@ -19,8 +31,9 @@ for(var i=0;i<10;i++){
 Exercise #3
 Test that you used the array push method correctly by console logging the first item in the array. Console log the last item in the array afterwards.
 */
-console.log();
-console.log();
+var i = ["0","1","2","3","4","5","6","7","8","9","10"];
+console.log(i[0]);
+console.log(i[10]);
 
 
 /*
@@ -30,4 +43,7 @@ Give the car object a property called "colour" and assign it the value of "black
 */
 var car;
 
-
+var car = {
+    colour: 'black'
+}
+console.log(car.colour);
